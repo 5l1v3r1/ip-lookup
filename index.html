@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!-- Title -->
+	<title>IP Lookup</title>
+
+    <!-- Jquery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Map script -->
+    <script src="js/map.js"></script>
+
+    <!-- Map style -->
+    <link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+
+    <div id="search">
+        <input type="text" placeholder="IP address..." id="ip">
+    </div>
+    <div id="error"></div>
+
+    <!-- Map -->
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=[your_api_key]&callback=initMap&language=EN" async defer></script>
+</body>
+</html>
