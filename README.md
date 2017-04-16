@@ -9,6 +9,8 @@ Displays:
 - Country
 - ORG (if applicable)
 
-To run this replace *[your_api_key]* in index.html with your Google Maps API key.
+# [Demo](musa11971.github.io/ip-lookup)
+
+To run this yourself, replace *[your_api_key]* in index.html with your Google Maps API key.
 
 ![Screenshot](http://i.imgur.com/Zoiil53.jpg)
