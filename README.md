@@ -9,7 +9,7 @@ Displays:
 - Country
 - ORG (if applicable)
 
-[Demo](musa11971.github.io/ip-lookup)
+[Demo](https://musa11971.github.io/ip-lookup)
 
 To run this yourself, replace *[your_api_key]* in index.html with your Google Maps API key.
 
