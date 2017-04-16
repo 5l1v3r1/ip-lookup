@@ -1,0 +1,62 @@
+* {
+	font-family: Arial;
+}
+
+/* Map style */
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/* Error style */
+#error {
+	position: absolute;
+	top: 70px;
+	left: 20%;
+	right: 20%;
+	z-index: 10;
+	background: #000;
+	border-radius: 15px;
+	opacity: 0.7;
+	height: 50px;
+	color: #fff;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	display: none;
+	line-height: 50px;
+}
+
+/* Search style */
+#search {
+	position: absolute;
+	top: 20px;
+	left: 10%;
+	right: 10%;
+	z-index: 10;
+	background: #000;
+	border-radius: 15px;
+	opacity: 0.5;
+	height: 50px;
+}
+
+#ip {
+	width: 90%;
+	height: 100%;
+	border: 0;
+	background: 0;
+	color: #fff;
+	font-size: 32px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	opacity: 1;
+	font-weight: bold;
+}
+
+#ip:focus {
+	outline: 0;
+}
