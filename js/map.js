@@ -20,7 +20,7 @@ $(document).ready(function() {
 
 // Check their own IP
 function checkSelf() {
-	var apiUrl = 'http://ipinfo.io/json';
+	var apiUrl = 'https://ipinfo.io/json';
 	$.getJSON(apiUrl,
 	function(json) {
 		console.log(json['ip']);
